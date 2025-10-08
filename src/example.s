@@ -23,7 +23,7 @@ Main              ldx   #0
                   jmp   Quit
 
 
-_demoStr          STR   "WELCOME TO THE FUTURE!.",00
+_demoStr          STR   "WELCOME TO THE FUTURE!!!",00
 
 Quit              jsr   MLI                     ; first actual command, call ProDOS vector
                   dfb   $65                     ; with "quit" request ($65)
